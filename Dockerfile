@@ -14,3 +14,4 @@ COPY . .
 
 EXPOSE 31337
 CMD [ "npm", "start" ]
+LABEL org.opencontainers.image.description DESCRIPTION
